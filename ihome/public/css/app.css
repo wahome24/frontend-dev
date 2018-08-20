@@ -1,0 +1,292 @@
+html,body{
+    background:#fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 0;
+    color:#000;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    padding: .2rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+.navbar-nav li a{
+    color:black !important;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 500px !important;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.carousel-caption h5 {
+    text-shadow: 1px 1px 15px #000;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.carousel-caption h6 {
+    text-shadow: 1px 1px 10px #000;
+    font-weight: 100;
+    font-size: 100%;
+}
+
+.padding{
+    padding-bottom: 1rem;
+}
+hr{
+    border-top: solid 2px #b4b4b4;
+}
+.fun{
+ width: 100%;
+ margin-bottom: 2rem;   
+}
+
+.gif{
+    max-width: 100%;
+}
+
+.social a{
+    font-size: 3em;
+    padding: 1rem;
+    align-items: center;
+
+}
+
+.fa-facebook{
+    color:#3b5998;
+}
+
+.fa-twitter{
+    color:#00aced;
+}
+
+.fa-instagram{
+    color: #517fa4;
+}
+
+hr.light{
+    border-top: 1px solid #191919;
+    width: 75%;
+}
+
+.header{
+    background: rgb(4, 4, 37);
+    padding: 1px;
+    padding: 15px;
+    text-align: right;
+}
+
+ul li {
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+
+}
+ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo{
+    float: left;
+    padding-top: 10px;
+}
+
+h4{
+ font-size: 200%;
+ font-weight: 150%;
+ text-align: left;
+}
+
+.code{
+  text-align: center;
+}
+
+h5{
+    text-align: center;
+    font-weight: 200%;
+}
+
+h3{
+ font-size: 200%;
+ font-weight: 150%;
+ text-transform: uppercase;
+ text-align: left;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer{
+    background:  #ccc;
+    color: black;
+    padding: 5px;
+}
+
+.bottom{
+    background:  #191919;
+    color: #ccc;
+}
+
+#button{
+    text-align: center;
+}
+
+#about{
+    text-align: left;
+}
+
+button{
+    text-align: center;
+}
+
+#login{
+    background:  rgb(4, 4, 37);
+    color: aliceblue;
+    width: 50%;
+    padding: 10px;
+    background-position: center;
+    
+}
+
+#orphans{
+    background: skyblue;
+    color:black;
+    width: 50%;
+    padding: 10px;
+    background-position: center;
+}
+
+#map{
+    width: 100%;
+    height: 500px;
+}
+#profile{
+    padding: 10px;
+}
+
+.profile{
+    padding-bottom:  10px;
+}
+
+.menu{
+     text-align: center;
+}
+.menu li a{
+    color: black;
+   
+}
+
+.accordion .card-header:after {
+  font-family: 'FontAwesome';
+  content: "\f055";
+  float: right;
+}
+
+.accordion .card-header .collapsed:after {
+  content: "\f056"
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.style {
+    background: white;
+    opacity: 0.90;
+}
+
+.filter a{
+    color: #000;
+}
+
+#filter{
+    width: 10%;
+}
+
+/*--media queries --*/
+
+@media (max-width:992px){
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width:768px){
+ .carousel-caption {
+    top: 45%;  
+}
+.carousel-caption h5 {
+    font-size: 50;
+}
+
+.carousel-caption h6 {
+    font-weight: 100;
+    font-size: 100%;
+    padding-bottom: .2rem;
+}
+.carousel-caption .btn{
+    font-size: 95%;
+    padding: 8px 14px;
+}
+.display-4{
+    font-size: 200%;
+}
+.social a{
+    font-size: 2.5em;
+    padding: 1.2rem;
+}
+}
+
+@media (max-width:576px){
+ .carousel-caption {
+    top: 40%;  
+}
+.carousel-caption h5 {
+    font-size: 50;
+}
+
+.carousel-caption h6 {
+    font-size: 100%;  
+}
+.carousel-caption .btn{
+    font-size: 90%;
+    padding: 4px 8px;
+}
+.carousel-indicators{
+    display: none;
+}
+.display-4{
+    font-size: 160%;
+}
+.social a{
+    font-size: 2em;
+    padding: .7rem;
+}
+}
